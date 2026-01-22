@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/196688-supportbubbas-templates/</Support>
+  <Support/>
   <Project/>
   <ReadMe/>
   <Overview>Fork of Readarr</Overview>
@@ -18,13 +18,17 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1769021655</DateInstalled>
+  <DateInstalled>1769110856</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>Tag must be softcover for goodreads metadata. Can be changed to hardcover for freshinstall - hardcover metadata might be having issues and goodreads might be required.</Requires>
+  <Requires>tag must be changed from hardcover to softcover if coming from readarr to use goodreads metadata.</Requires>
   <Config Name="Webui" Target="8787" Default="8787" Mode="tcp" Description="Port to bookshelf web ui." Type="Port" Display="always" Required="true" Mask="false">8787</Config>
   <Config Name="config" Target="/config" Default="/mnt/user/appdata/bookshelf/" Mode="rw" Description="Bookshelf config file." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bookshelf/</Config>
-  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="Location of download client folder." Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/Downloads/completed/</Config>
+  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="Location of download client folder." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Downloads/</Config>
   <Config Name="media" Target="/media" Default="" Mode="rw" Description="Location of audiobooks on disk." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/audiobooks/</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">022</Config>
+  <Config Name="Metadata URL" Target="METADATA_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <TailscaleStateDir/>
 </Container>
