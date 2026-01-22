@@ -21,7 +21,7 @@
   <DateInstalled>1769021655</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>tag must softcover for goodreads metadata. Can be changed to hardcover for freshinstall - hardcover metadata might be having issues and goodreads might be required.</Requires>
+  <Requires>Tag must be softcover for goodreads metadata. Can be changed to hardcover for freshinstall - hardcover metadata might be having issues and goodreads might be required.</Requires>
   <Config Name="Webui" Target="8787" Default="8787" Mode="tcp" Description="Port to bookshelf web ui." Type="Port" Display="always" Required="true" Mask="false">8787</Config>
   <Config Name="config" Target="/config" Default="/mnt/user/appdata/bookshelf/" Mode="rw" Description="Bookshelf config file." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bookshelf/</Config>
   <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="Location of download client folder." Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/Downloads/completed/</Config>
