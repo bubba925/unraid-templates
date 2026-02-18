@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/pennydreadful/bookshelf</Project>
   <ReadMe/>
   <Overview>Fork of Readarr</Overview>
   <Category/>
