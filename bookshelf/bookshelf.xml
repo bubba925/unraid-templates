@@ -23,12 +23,12 @@
   <DonateLink/>
   <Requires>tag must be changed from hardcover to softcover if coming from readarr to use goodreads metadata.</Requires>
   <Config Name="Webui" Target="8787" Default="8787" Mode="tcp" Description="Port to bookshelf web ui." Type="Port" Display="always" Required="true" Mask="false">8787</Config>
-  <Config Name="config" Target="/config" Default="/mnt/user/appdata/bookshelf/" Mode="rw" Description="Bookshelf config file." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/bookshelf/</Config>
-  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="Location of download client folder." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Downloads/</Config>
-  <Config Name="media" Target="/media" Default="" Mode="rw" Description="Location of audiobooks on disk." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/audiobooks/</Config>
-  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">022</Config>
+  <Config Name="config" Target="/config" Default="/mnt/user/appdata/bookshelf/" Mode="rw" Description="Bookshelf config file." Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Downloads" Target="/downloads" Default="" Mode="rw" Description="Location of download client folder." Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="media" Target="/media" Default="" Mode="rw" Description="Location of audiobooks on disk." Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Metadata URL" Target="METADATA_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <TailscaleStateDir/>
 </Container>
