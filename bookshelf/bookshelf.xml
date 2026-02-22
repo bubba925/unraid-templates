@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/pennydreadful/bookshelf</Support>
+  <Support>https://forums.unraid.net/topic/196688-supportbubbas-templates</Support>
   <Project>https://github.com/pennydreadful/bookshelf</Project>
   <ReadMe/>
   <Overview>Fork of Readarr, Arr For Books</Overview>
