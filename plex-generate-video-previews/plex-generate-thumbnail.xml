@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/stevezau/plex_generate_vid_previews/tree/main</Support>
+  <Support>https://forums.unraid.net/topic/196688-supportbubbas-templates</Support>
   <Project>https://github.com/stevezau/plex_generate_vid_previews/tree/main</Project>
   <ReadMe/>
   <Overview>Container to use hw acceleration to generate plex thumbnails.</Overview>
