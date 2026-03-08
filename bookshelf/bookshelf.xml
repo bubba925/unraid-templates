@@ -11,7 +11,7 @@
   <Project>https://github.com/pennydreadful/bookshelf</Project>
   <ReadMe/>
   <Overview>Fork of Readarr, Arr For Books</Overview>
-  <Category/>
+  <Category>MediaServer:Books</Category>
   <WebUI>http://[IP]:[PORT:8787]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/pennydreadful/bookshelf/blob/develop/Logo/128.png?raw=true</Icon>
