@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Plex-Generate-Vid-Previews</Name>
   <Repository>stevezzau/plex_generate_vid_previews:latest</Repository>
-  <Registry/>
+  <Registry>https://github.com/stevezau/plex_generate_vid_previews</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
