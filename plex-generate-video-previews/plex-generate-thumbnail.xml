@@ -11,7 +11,7 @@
   <Project>https://github.com/stevezau/plex_generate_vid_previews/tree/main</Project>
   <ReadMe/>
   <Overview>Container to use hw acceleration to generate plex thumbnails.</Overview>
-  <Category/>
+  <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/stevezau/plex_generate_vid_previews/blob/main/docs/images/icon.png?raw=true</Icon>
