@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Plex-Generate-Vid-Previews</Name>
-  <Repository>stevezzau/plex_generate_vid_previews:latest</Repository>
-  <Registry>https://github.com/stevezau/plex_generate_vid_previews</Registry>
+  <Repository>stevezzau/media_preview_generator:latest</Repository>
+  <Registry>https://github.com/stevezau/media_preview_generator</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/196688-supportbubbas-templates</Support>
-  <Project>https://github.com/stevezau/plex_generate_vid_previews/tree/main</Project>
+  <Project>https://github.com/stevezau/media_preview_generator/tree/main</Project>
   <ReadMe/>
-  <Overview>Container to use hw acceleration to generate plex thumbnails.</Overview>
+  <Overview>Container to use hw acceleration to generate plex/jellyfin/media thumbnails.</Overview>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/stevezau/plex_generate_vid_previews/blob/main/docs/images/icon.png?raw=true</Icon>
+  <Icon>https://github.com/stevezau/media_preview_generator/blob/main/docs/images/icon.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
