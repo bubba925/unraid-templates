@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Plex-Generate-Vid-Previews</Name>
+  <Name>Media-Preview-Generator</Name>
   <Repository>stevezzau/media_preview_generator:latest</Repository>
   <Registry>https://github.com/stevezau/media_preview_generator</Registry>
   <Network>bridge</Network>
